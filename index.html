@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs 101</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER CONTAINER -->
+    <section class="header-container">
+
+        <div class="header-wrapper">
+            <div class="navlinks">
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-container">About</a></li>
+                    <li><a href="#contact-form">Contact</a></li>                    
+                </ul>
+            </div>   
+            <div class="header-content">
+                <div class="header-img">
+                    <img src="./images/main dog.png" alt="" class="main-dog">
+                </div>
+                <div class="header-content">
+                    <h1>Barking up the <br> right tree for <br>dog <span class="lover">lovers</span></h1>
+                    <p style="color:white; position:absolute; width: 750px;top: 110%;left: 34%;">A dog-themed website serves as a comprehensive platform for dog enthusiasts, providing
+                       valuable information on various aspects of dog ownership and care. It aims to 
+                       educate, inform, and engage users with content related to dog breeds, training,
+                        health, and more.</p>
+                    <button style="color:#fff;margin-top: 15px; position:absolute; font-size :18px;background-color: green ;top: 170%;left: 34%;padding: 10px 20px;border-radius:4px ;border:none;">
+                        <a  style= "text-decoration: none; color: #fff; "
+                        href="#contact-form">Join the pack</a></button>
+                </div>
+              
+                
+              
+            </div>         
+        </div>
+
+    </section>
+   <!-- end of header container -->
+    <!-- ABOUT SECTION -->
+     <div id="about-container">
+        <div class="about-content">
+           <div><img src="./images/dogtraining.webp" alt="" class="about-img"></div>
+            <div class="content">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aut nemo quam reiciendis cum libero. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vero nobis distinctio! Fugiat, laboriosam. Accusantium dolorem sint quibusdam omnis aliquam nemo necessitatibus temporibus in tempora impedit non inventore fugit reprehenderit debitis quam reiciendis rerum neque, laborum sit. Inventore a sunt obcaecati incidunt reiciendis aspernatur, animi ipsam! Facilis eum autem commodi? Nobis dolores adipisci maiores minus molestias, error sapiente vel sint.
+                     Officiis corporis reprehenderit id repudiandae sint molestias soluta repellat facere architecto quasi iure necessitatibus laborum, libero iste? Nihil commodi soluta molestias animi dolorem praesentium nam minima possimus, maiores, alias at ipsum. Rem iure ad, consequatur repudiandae quod expedita quaerat dolore vel. Delectus..</p>
+            </div>
+        </div>
+     </div>
+     <!-- END OF ABOUT SECTION -->
+    <!-- BUTTONS -->
+     <div class="filter-buttons">
+        <button id="all">All</button>
+        <button id="breed">Breed</button>
+        <button id="gallery">Gallery</button>
+        <button id = 'favorite'>Favorite</button>
+        <div><img src="./images/display.png" alt="" class="display"></div>
+     </div>
+     <!-- Animals display according to category selected -->
+>
+     <section  id="showdogs">
+    
+     </section>
+     
+
+
+     <!-- --------------DOWGS INFO -->
+      <div class="wrapper">
+        <h2 class="furry">Furry Friend Extraordinaire</h2>
+        <div class="animal-care"  >
+        <!-- Card Component -->
+        <div class="card">
+            <img src="./images/training2.jpg" alt="Card Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Training and obedience</h2>
+                <p class="card-description">Techniques and methods for training dogs, including basic commands, house training, and advanced obedience skills. wners.</p>
+                <button class="card-button"><a href="#" class="card-button">Transform</a></button>
+            </div>
+        </div>
+           <!-- Card Component -->
+           <div class="card">
+            <img src="./images/wellness.jpg" alt="Card Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Dog Health and Wellness</h2>
+                <p class="card-description">Essential information on maintaining a dog's health, including nutrition, exercise, regular veterinary check-ups, and common health issues. Proper health care ensures a long and happy life for dogs.</p>
+                <button class="card-button"><a href="#" class="card-button">Optimize</a></button>
+            </div>
+        </div>
+           <!-- Card Component -->
+           <div class="card">
+            <img src="/images/istockphoto-1389039241-170667a.webp" alt="Card Image" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Grooming and Hygiene</h2>
+                <p class="card-description"> Guidelines for grooming happy dogs, such as bathing, brushing, nail trimming, and ear cleaning, grooming helps keep dogs clean and comfortable </p>
+                <button class="card-button"><a href="#" class="card-button">Nurture</a></button>
+           
+            </div>
+           </div>
+            <!-- Card Component -->
+            <div class="card">
+                <img src="./images/behaviour.jpeg" alt="Card Image" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Dog Behavior and Communication</h2>
+                    <p class="card-description"> Understanding dog body language and communication signals to improve interaction and bond with dogs. Helps in interpreting their needs and emotions.</p>
+                    <button class="card-button"><a href="#" class="card-button">Resolve</a></button>
+           
+                </div>
+               </div>
+            
+        </div>
+     </div>
+    <!--------------------------- CONTACT US ------------------------------------------->
+    <section id ="contact-form">
+        <h1>Join the Pack</h1>
+        <div class ="login-form" >
+            <form action="#" method="POST" id="form">
+            <p>Firstname</p>
+             <input type="text" name="" id="fullname"
+           placeholder = "Enter your full name">
+              <p>Email</p>
+             <input type="email" name ="" placeholder= " Enter your email" required id="email">
+
+             <p>Tell us about your intrest in dogs:</p>
+                <textarea name="" id="story" placeholder= "Your story ..." cols="39"  ></textarea>
+             
+             <input type= "submit" name="" value="Join now" >
+            
+           
+           </form>
+        </div>
+       
+    </section>
+    <!------------------- CONTACT US--------------------------------------------------- -->
+
+    <!-- END OF CONTACT US SECTION -->
+     <!-- footer -->
+      <div class="footer">
+        <h3>powered by <span class="lover">dogapi</span></h3>
+      </div>
+      <!-- footer -->
+
+      <!-- SCRIPT -->
+       <script src="./index.js"></script>
+</body>
+</html>
