@@ -31,7 +31,7 @@ Manage Favorites
 - In the gallery view, click the "Add to favorites" button to add a breed to your favorites list.
 - Submit User Details
 
-#User submission
+# User submission
 - Fill out the form with your full name, email, and story, and submit it. This will send the user details to a local server at http://localhost:3000/users.
 C
 ### Code Overview
